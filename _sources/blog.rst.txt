@@ -1,0 +1,27 @@
+
+.. _blog:
+
+Blog
+============================
+
+|searchbox|
+
+.. .. postlist:: 1
+..    :date: %B %d, %Y
+..    :list-style: none
+..    :excerpts:
+
+:raw-html:`<h3 class="ui horizontal divider utility">Recent posts</h3>`
+
+.. postlist:: 5
+   :date: %B %d, %Y
+   :list-style: none
+
+
+.. `toctree` directive, below, contains list of non-post `.rst` files.
+   This is how they appear in Navigation sidebar. Note that directive
+   also contains `:hidden:` option so that it is not included inside the page.
+
+   Posts are excluded from this directive so that they aren't double listed
+   in the sidebar both under Navigation and Recent Posts.
+

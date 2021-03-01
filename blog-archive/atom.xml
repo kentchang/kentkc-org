@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>blog/</id>
+  <title>Kent K. Chang</title>
+  <updated>2023-10-18T18:29:22.178676+00:00</updated>
+  <link href="blog/"/>
+  <link href="blog/blog-archive/atom.xml"/>
+  <generator uri="https://ablog.readthedocs.org" version="0.1.dev1+g04050c8.d20230503">ABlog</generator>
+  <entry>
+    <id>blog/blog/first-post/</id>
+    <title>The Inaugural Post</title>
+    <updated>2021-02-28T00:00:00-08:00</updated>
+    <content type="html">&lt;p&gt;This blog is for:&lt;/p&gt;
+</content>
+    <link href="blog/blog/first-post/" rel="alternate"/>
+    <published>2021-02-28T00:00:00-08:00</published>
+  </entry>
+</feed>
