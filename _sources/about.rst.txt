@@ -1,0 +1,41 @@
+
+.. _about:
+
+About
+============================
+
+:raw-html:`<blockquote style="padding-left: 1em; font-size: 95%;">`
+
+"I think we go through this life, slowly but surely, just collecting these little pieces of ourselves that we can't really live without until eventually, we have enough of them, we feel whole." [#]_
+
+:raw-html:`<span style="display: block; text-align: right; font-size: 90%;">—<span class="small-caps">Kevin Pearson</span>, <i>This Is Us</i>, III.xviii. “Her”</span>`
+
+:raw-html:`</blockquote>`
+
+Here are some of my pieces:
+
+* "'cause it's a long, long journey—" [#]_ 
+* “Confucius, we are approaching the capital,” says Lord Jing. [#]_ 
+* "I hate to seem inquisitive, but would you kindly inform me who :raw-html:`<br />` I am?" [#]_ 
+* ". . . in the yet unbroken part . . ." [#]_ 
+* ":raw-html:`<span style="display:inline-block; width: 15px;"></span>` Shantih :raw-html:`<span style="display:inline-block; width: 15px;"></span>` Shantih :raw-html:`<span style="display:inline-block; width: 15px;"></span>` Shantih :raw-html:`<span style="display:inline-block; width: 15px;"></span>`" [#]_ 
+* "Raffiniert ist der ：Herr Gott， aber Boshaft ist Es nicht" [#]_ 
+* "I may not be wise—" [#]_ 
+
+:raw-html:`<hr />`
+
+:raw-html:`<div class="footnotes">`
+
+.. [#] Created by Dan Fogelman; episode info `here <https://www.imdb.com/title/tt6439914/>`_.
+.. [#] From Angela Chang's "`Journey <https://www.youtube.com/watch?v=yhnR1L7LknA>`_."
+.. [#] From my translation of a line in Lo Chih-Cheng's "Inquiring Dan."
+.. [#] From Oscar Wilde's *The Importance of Being Earnest* (1895).
+.. [#] From Mayday's "`The Yet Unbroken Place in My Heart <https://www.youtube.com/watch?v=4eGK5Q25Hpk>`_."
+.. [#] The concluding reveberation in T.S. Eliot's *The Wasteland*.
+.. [#] From Yang Mu's "In Memoriam Albert Einstein."
+.. [#] From Ben Platt's "`Run Away <https://www.youtube.com/watch?v=MV27NJwIA2c>`_."
+
+:raw-html:`</div>`
+
+.. role:: raw-html(raw)
+   :format: html

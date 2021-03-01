@@ -1,0 +1,41 @@
+.. _index:
+
+:raw-html:`<style> ul.simple > li { margin-bottom: 1rem; } .ui.segment, .ui.segments .segment {margin-top:2rem !important;font-size: 1.12rem;}</style>`
+
+Kent K. Chang
+============================
+
+Kent K. Chang is a first-year PhD student in the School of Information and Berkeley Artificial Intelligence Research (BAIR) at the University of California, Berkeley, where he is advised by Prof. David Bamman, researching in natural language processing and cultural analytics.
+
+:raw-html:`<a class="tiny ui twitter button" href="https://twitter.com/KentKChang">@KentKChang</a><a class="tiny ui black button" href="https://github.com/kentchang/">Github</a><a class="tiny ui violet button" href="https://cdn.kentkc.org/general_cv.pdf">CV</a><a class="tiny ui green button" href="https://comedicborderline.com/">Non-academic stuff</a><code style="background-color: #fff; margin-left: 0.5rem; font-size: 0.9rem;">kentkc [at] berkeley.edu</code>`
+
+:raw-html:`<hr style="margin: 1.5em 0; border: 0; height: 1px; background-image: -webkit-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);" />`
+
+Before coming to Berkeley, Kent was a predoctoral fellow at Carnegie Mellon University (Department of Social and Decision Sciences); he holds a BA (English language and literature) from National Taiwan University and an MS (Digital Humanities) from University College London, and is the recipient of Berkeley Fellowship for Graduate Study. 
+
+|profilepic|
+
+Kent's research uses natural language processing to understand and facilitate the process of sense-making, with particular interests in pragmatic inference, commonsense reasoning, and narrative understanding. He looks to improve the performance of NLP methods on domains relevant to inquiry in the humanities and social sciences and to innovate new tasks within NLP that  directly speak to the needs of these communities. With an interdisciplinary background, he seeks to leverage NLP as a method for literary, historical, and sociological inquiries.
+
+Publications
+------------
+
+Most projects in progress are not listed here; if interested, contact me at :raw-html:`<code style="background-color: #fff;">kentkc [at] berkeley.edu</code>`.
+
+* Kent K. Chang, "The Queer Gap in Cultural Analytics." Book chapter (peer-reviewed); forthcoming in *Debates in Digital Humanities 2022*, edited by Matthew K. Gold and Lauren Klein. University of Minnesota Press, 2021. Current draft available upon request.
+* Kent K. Chang and Simon DeDeo, "Divergence and the Complexity of Difference in Text and Culture." *Journal of Cultural Analytics*, October 2020. `https://doi.org/10.22148/001c.17585 <https://doi.org/10.22148/001c.17585>`_. :raw-html:`<a class="tiny ui primary basic button" href="https://culturalanalytics.org/article/17585-divergence-and-the-complexity-of-difference-in-text-and-culture">PDF</a><a class="tiny ui secondary basic button" href="https://github.com/kentchang/ca_divergence">Github repo</a>`  
+
+* Kent Chang, Yuerong Hu, Wenyi Shang, Aniruddha Sharma, Shubhangi Singhal, Ted Underwood, Jessica Witte, Peizhen Wu, "Book Reviews and the Consolidation of Genre." DH2020 conference, `http://dx.doi.org/10.17613/02q2-1v27 <http://dx.doi.org/10.17613/02q2-1v27>`_.
+
+
+|co|
+
+:raw-html:`</div>`
+
+.. role:: raw-html(raw)
+   :format: html
+
+.. toctree::
+   :hidden:
+   
+   blog.rst
