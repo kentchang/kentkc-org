@@ -1,0 +1,224 @@
+
+body {
+	font-family: equity_text_a, serif;
+	font-size: 1.2rem;
+	font-variant-numeric: oldstyle-nums;
+	line-height: 1.8rem;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+h1,
+h2,
+h3 {
+  font-family: RoslindaleText, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.28571429em;
+  margin: calc(2rem - 0.1428571428571429em) 0 1rem;
+  font-weight: bold;
+  padding: 0;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+}
+a {
+	text-decoration: none;
+}
+section h1 {
+	font-size: 3rem;
+	font-family: Roslindale;
+	font-weight: 200;
+  }
+
+/* section h2 {
+	font-size: 120%;
+	font-family: equity_caps_a;
+	font-weight: normal;
+	font-variant: small-caps;
+	text-transform: lowercase;
+  } */
+
+section h2 {
+	font-size: 1.25rem;
+	font-family: CooperHewitt;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+.small-caps {
+	font-family: equity_caps_a;
+	font-variant: small-caps;
+	text-transform: lowercase;	
+  }
+
+.sans-title {
+    font-weight: 700;
+    padding-top: 6px !important;
+    font-family: CooperHewitt;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+
+.sans {
+	font-family: CooperHewitt;
+	padding-top: 8px;
+}
+
+/* Ribbon label styles */
+.ribbon-label {
+    position: absolute;
+    top: 1rem;
+    left: -1.1rem;
+    background-color: #333;
+    color: white;
+    padding: 0.2rem 0.5rem 0.2rem 1.2rem;
+    font-size: 0.857rem;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 0 0.285rem 0.285rem 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border: 0px solid #666;
+    z-index: 10;
+}
+
+/* The triangular tail of the ribbon */
+.ribbon-label::after {
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 0;
+	background-color: transparent !important;
+	border-style: solid;
+	border-width: 0 1.2em 1.2em 0;
+	border-color: transparent;
+	border-right-color: inherit;
+	width: 0;
+	height: 0;
+}
+
+/* Adjust the container for the ribbon */
+.ribbon-container {
+	position: relative;
+	padding-top: 3rem; /* Makes space for the ribbon */
+}
+
+/* For additional shadow effects on the card */
+.shadow-sm {
+	box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+.btn-outline-pdf {
+	background-color: transparent;
+	color: #db2828; /* Red color for the text */
+	border: 1px solid #db2828; /* Red border */
+}
+
+.btn-outline-pdf:hover {
+	background-color: #db2828; /* Solid red background on hover */
+	color: white; /* White text on hover */
+	border-color: #db2828; /* Keep the red border */
+}
+
+#contact p{
+	margin-bottom: 0.4rem;
+}
+
+#news {
+    background-color: #fffaf0;
+    border-color: #faa634;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+#news h2 {
+    font-size: 1rem;
+    color: #ff9300;
+    margin: 1.3rem 0 0.8rem 0.5rem !important;
+}
+
+blockquote {
+	padding: 0;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 1.5em;
+	margin-inline-end: 1.5em;
+}
+
+blockquote p {
+	margin: inherit;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+blockquote.multi p {
+	margin: inherit;
+	margin-block-start: 0px;
+	margin-block-end: 0.6rem !important;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+blockquote.dialogue p {
+	text-indent: -2rem; 
+	padding-left: 2rem;
+}
+
+blockquote.dialogue .speaker {
+	padding-right: 0.4rem;
+} 
+
+
+blockquote > p:last-of-type {
+	margin-top: 0.7rem;
+	margin-bottom: 1.25rem;
+    text-align: right !important;
+}
+
+#obsessions > p:first-of-type {
+	margin-top: 1rem;
+}
+
+.pt-2a {
+	padding-top: .6rem!important;	
+}
+
+#publications div > p:first-of-type {
+	text-indent: -1rem; 
+	margin-bottom: 0.1rem;	
+}
+#publications div > p {
+	padding-left: 1rem;
+	margin-bottom: 0.15rem;
+}
+#publications div > p:last-of-type {
+	margin-bottom: 1.25rem;
+}
+
+blockquote > blockquote {
+	font-size: 1.05rem;
+	line-height: 1.45rem;
+}
+
+.photo-container {
+    display: flex;
+    align-items: center;
+}
+
+.photo-container img {
+    height: 100%;
+    object-fit: cover; /* Ensure the image scales properly */
+}
+
+/* Hide the image for smaller viewports */
+@media (max-width: 992px) {
+    .photo-container {
+        display: none;
+    }
+}

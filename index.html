@@ -1,326 +1,375 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 
+<head>
 
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <!-- Open Graph data  -->
+    <meta property="og:title"         content="Kent K. Chang" />
+    <meta property="og:description"   content="" />
+    <meta property="og:image"         content="" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:url"           content="" />
 
+    <!-- <link rel="preload" as="font" type="font/woff2" crossorigin href="/theme/assets/bootstrap-icons/font/fonts/bootstrap-icons.woff2"> -->
+    <!-- <link rel="stylesheet" href="/theme/assets/bootstrap-icons/font/bootstrap-icons.css" > -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-     
-    <title> Kent K. Chang</title>
-    
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
-    <script type="text/javascript" id="documentation_options" data-url_root="#" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="_static/sphinx_highlight.js"></script>
-    <link rel="index" title="Index" href="genindex/" />
-    <link rel="search" title="Search" href="search/" />
-    <link rel="next" title="Blog" href="blog/" /> 
-   
-  <script src="https://kit.fontawesome.com/a90ebe362f.js" crossorigin="anonymous"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script> -->
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.7/dist/semantic.min.js"></script>
-  <link rel="stylesheet" href="_static/fonts.css" type="text/css" />
+    <script src="https://kit.fontawesome.com/d81da2397e.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-  
-  
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-JLG3SRS9NT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-JLG3SRS9NT');
-</script>
-<script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+    <!-- theme CSS -->
+    <link rel="stylesheet" href="/theme/assets/css/theme.css">
+    <link rel="stylesheet" href="/theme/assets/css/fonts.css">    
+    <link rel="stylesheet" href="/theme/assets/css/equity-light.css">    
  
-<link
-  rel="alternate"
-  type="application/atom+xml"
-  href="blog-archive/atom.xml"
-  title="Kent K. Chang"
-/>
- 
-<style type="text/css">
-  ul.ablog-archive {
-    list-style: none;
-    overflow: auto;
-    margin-left: 0px;
-  }
-  ul.ablog-archive li {
-    float: left;
-    margin-right: 5px;
-    font-size: 80%;
-  }
-  ul.postlist a {
-    font-style: italic;
-  }
-  ul.postlist-style-disc {
-    list-style-type: disc;
-  }
-  ul.postlist-style-none {
-    list-style-type: none;
-  }
-  ul.postlist-style-circle {
-    list-style-type: circle;
-  }
-</style>
+    <title>Kent K. Chang - Kent K. Chang</title>
 
-  </head><body>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLG3SRS9NT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    <nav class="ui left vertical menu sidebar">
-      <div class="close">
-        <button class="ui button toggle-sidebar"><i class="fas fa-times-circle"></i></button>
-      </div>
-      <div class="logo"> 
-        <img class="logo" src="/_static/k.svg" alt="Logo"/>
-        <a href="#">
-          <h1 class="logo">Kent K. Chang</h1>
-        </a>
-        <p> <em>with</em> <br/> <span class="small-caps">Kent K. Chang</span></p>
-      </div>
-      <div class="ui vertical menu">
-        <div class="item">
-          <h3><a href="/about/">about</a></h3>
-        </div>
-    </nav>
-  
+      gtag('config', 'G-JLG3SRS9NT');
+    </script>
+    <script src="https://kit.fontawesome.com/d81da2397e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="toggle">
-          <button class="ui button toggle-sidebar"><i class="fas fa-bars"></i></button>
-        </div>
-      <div class="ui secondary  menu">
-        <div class="right menu">
-          <a class="item" href="/">
-            Home
-          </a>
-          <a class="item" href="/blog/">
-            Blog
-          </a>
-        </div>
-      </div>
-          
-          <div class="body" role="main">
-            
+<body>
 
- 
-<article>
-<p id="index"><span class="raw-html"><style> ul.simple > li { margin-bottom: 1rem; } .ui.segment, .ui.segments .segment {margin-top:2rem !important;font-size: 1.12rem;}</style></span></p>
-<section id="kent-k-chang">
-<h1>Kent K. Chang<a class="headerlink" href="#kent-k-chang" title="Permalink to this heading">¶</a></h1>
-<p><img class="ui right floated image" style="border: 1px solid #ddd; border-radius: 4px; padding: 4px;" width="245px" src="_static/images/kent-photo.jpg" alt="Photo of Kent K. Chang"></p>
-<p>Kent K. Chang is a PhD student in the School of Information and Berkeley Artificial Intelligence Research (BAIR) at the University of California, Berkeley, where he is advised by Prof. David Bamman, researching in natural language processing and cultural analytics.</p>
-<p><span class="raw-html"><a class="tiny ui twitter button" href="https://twitter.com/KentKChang">X (Twitter)</a><a class="tiny ui black button" href="https://github.com/kentchang/">Github</a><a class="tiny ui violet button" href="_static/general_cv.pdf">CV</a><a class="tiny ui blue button" href="https://www.linkedin.com/in/kentkchang/">LinkedIn</a><code style="background-color: #fff; margin-left: 0.5rem; font-size: 0.9rem;">kentkc [at] berkeley.edu</code></span></p>
-<p><span class="raw-html"><hr style="margin: 1.5em 0; border: 0; height: 1px; background-image: -webkit-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);" /></span></p>
-<p>Before coming to Berkeley, Kent was a predoctoral fellow at Carnegie Mellon University (Department of Social and Decision Sciences); he holds a BA (English language and literature) from National Taiwan University and an MS (Digital Humanities) from University College London, and is the recipient of Berkeley Fellowship for Graduate Study.</p>
-<p>Kent’s research uses natural language processing to understand and facilitate the process of meaning-making and social interaction in cultural texts, with particular interests in dialogue and narrative understanding. He looks to improve the performance of NLP methods on domains relevant to inquiry in the humanities and social sciences and to innovate new tasks within NLP that directly speak to the needs of these communities. With an interdisciplinary background, he seeks to leverage NLP as a method for literary, historical, and sociological inquiries, putting into synergy the nuance of critical theory and the affordance of neural-based representation learning.</p>
-<section id="teaching">
-<h2>Teaching<a class="headerlink" href="#teaching" title="Permalink to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>Graduate Student Instructor, “Applied Natural Language Processing” (<span class="raw-html"><span class="small-caps">info</span></span> 256), UC Berkeley, Fall 2023.</p></li>
-<li><p>Graduate Student Instructor, “Natural Language Processing” (<span class="raw-html"><span class="small-caps">info</span></span> 159/259), UC Berkeley, Spring 2023.</p></li>
-<li><p>Graduate Student Instructor, “Information Organization and Retrieval” (<span class="raw-html"><span class="small-caps">info</span></span> 202), UC Berkeley, Fall 2022.</p></li>
-</ul>
-</section>
-<section id="publications">
-<h2>Publications<a class="headerlink" href="#publications" title="Permalink to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>Kent K. Chang, Mackenzie Cramer, Sandeep Soni, David Bamman (forthcoming 2023), “Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4.” EMNLP 2023. <span class="raw-html"><br /><a class="tiny ui primary basic button" href="https://arxiv.org/pdf/2305.00118.pdf">Preprint</a></span></p></li>
-<li><p>Kent K. Chang, Danica Chen, David Bamman (2023), “Dramatic Conversation Disentanglement.” ACL 2023 Findings. <span class="raw-html"><br /><a class="tiny ui primary basic button" href="https://aclanthology.org/2023.findings-acl.248/">ACL Anthology</a></span></p></li>
-<li><p>Kent K. Chang (2023), “The Queer Gap in Cultural Analytics.” Book chapter (peer-reviewed) in <em>Debates in Digital Humanities 2023</em>, edited by Matthew K. Gold and Lauren Klein. University of Minnesota Press.  <span class="raw-html"><br /><a class="tiny ui primary basic button" href="https://people.ischool.berkeley.edu/~kentkchang/_static/chang-queer_gap.pdf">Preprint</a></span></p></li>
-<li><p>Michelle Moravec and Kent K. Chang (2021), “Feminist Bestsellers: A Digital History of 1970s Feminism.” <em>Post45</em> × <em>Journal of Cultural Analytics</em> (special issue ed. Richard Jean So).</p></li>
-<li><p>Kent K. Chang and Simon DeDeo (2020), “Divergence and the Complexity of Difference in Text and Culture.” <em>Journal of Cultural Analytics</em>. <span class="raw-html"><br /><a class="tiny ui primary basic button" href="https://culturalanalytics.org/article/17585-divergence-and-the-complexity-of-difference-in-text-and-culture">PDF</a><a class="tiny ui secondary basic button" href="https://github.com/kentchang/ca_divergence">Github repo</a></span></p></li>
-<li><p>Kent Chang, Yuerong Hu, Wenyi Shang, Aniruddha Sharma, Shubhangi Singhal, Ted Underwood, Jessica Witte, Peizhen Wu (2020), “Book Reviews and the Consolidation of Genre.” DH 2020. <a class="reference external" href="http://dx.doi.org/10.17613/02q2-1v27">http://dx.doi.org/10.17613/02q2-1v27</a>.</p></li>
-</ul>
-<p>Most projects in progress are not listed here. To learn more, get in touch: <span class="raw-html"><code style="background-color: #fff;">kentkc [at] berkeley.edu</code></span>; <a class="reference external" href="https://twitter.com/KentKChang">&#64;KentKChang</a>.</p>
-<p> <div class="column">
-   <div class="ui raised segment">
-      <span class="ui black ribbon label" style="font-family: CooperHewitt;letter-spacing: 0.12em; text-transform: uppercase;">Current Obsession</span>
 
-      <a href="https://comedicborderline.com/current-obsession/#october-2023-present" class="all-caps" style="font-size: 1.2rem;left: calc(-1rem - 1.2em);margin-left: -0.5em;">October 2023—present</a>
-      <p style="margin-top: 1rem;font-size:1.18rem;">David Shore, <a href="https://en.m.wikipedia.org/wiki/House_(TV_series)"><i>House, M. D.</i></a></p>
-      <blockquote>
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">algernon</span>  If it wasn’t for Bunbury’s extraordinary bad health, for instance, I wouldn’t be able to dine with you at Willis’s tonight, for I have been really engaged to Aunt Augusta for more than a week.
-       </p>        
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">jack</span> I haven’t asked you to dine with me anywhere tonight.
-       </p>
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">algernon</span>I know. You are absurdly careless about sending out invitations. It is very foolish of you. Nothing annoys people so much as not receiving invitations.
-       </p>         
-       <p style="margin-top: 0.7rem;">
-       —Wilde, <i>Earnest</i> (1895)
-       </p>
-      </blockquote>
-
-      <blockquote>
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">frasier</span> I’m famished. Why don’t we just head over to Campagne for dinner? My treat. 
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">niles</span> You’re on! Unless, you think it’s too <i>odd</i> to have dinner together, heh.
-       </p>
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">frasier</span> I don’t think we’re in any danger of that—if our relationship became truly odd I think we’re both intelligent enough to recognize the signs.
-       </p>         
-       <p style="margin-top: 0.7rem;">
-       —<i>Frasier</i>, VI.xvii. “<a href="hhttps://www.imdb.com/title/tt0756479/">The Dinner Party</a>” (1999)
-       </p>
-      </blockquote>
-
-      <blockquote>
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">house</span> Invite me to dinner Thursday night! Come on, we haven’t had a nice meal together since, oh—
-       </p>        
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">wilson</span> . . . yesterday, when I loaned you five thousand dollars to buy a new car.
-       </p>
-       <p style="text-indent: -2rem; padding-left: 2rem;">
-          <span class="small-caps" style="padding-right: 0.4rem;">house</span> My treat!
-       </p>         
-       <p style="margin-top: 0.7rem;">
-       —<i>House, M. D.</i>, II.v. “<a href="https://www.imdb.com/title/tt0606017/">Daddy’s Boy</a>” (2005)
-       </p>
-      </blockquote>                
-
-   <!-- ..   <a href="https://comedicborderline.com/current-obsession/#may-2023-present" class="all-caps" style="font-size: 1.2rem;left: calc(-1rem - 1.2em);margin-left: -0.5em;">May 2023</a>
-    ..   <p style="margin-top: 1rem;font-size:1.18rem;">Amy Sherman-Palladino, <a href="https://en.wikipedia.org/wiki/The_Marvelous_Mrs._Maisel"><i>The Marvelous Mrs. Maisel</i></a></p>
-    ..   <blockquote>
-    ..    <p style="text-indent: -2rem; padding-left: 2rem;">
-    ..       <span class="small-caps" style="padding-right: 0.4rem;">frank</span> And don't you ever fuck with a musical production of ours again!
-    ..    </p>        
-    ..    <p style="text-indent: -2rem; padding-left: 2rem;">
-    ..       <span class="small-caps" style="padding-right: 0.4rem;">george</span> Next time, there's gonna be tech!
-    ..    </p>
-    ..    <p style="text-indent: -2rem; padding-left: 2rem;">
-    ..       <span class="small-caps" style="padding-right: 0.4rem;">midge</span> . . . parasitic illness. Yeah, I guess while he mourns his little cartwheeler, I'm supposed to tell you about all the ways that trash can kill you.
-    ..    </p>         
-    ..    <p style="margin-top: 0.7rem;">
-    ..    —V.iv. “<a href="https://www.imdb.com/title/tt26897476/">Susan</a>”
-    ..    </p>
-    ..   </blockquote>-->
-    <!--..   <a href="https://comedicborderline.com/current-obsession/#august-2022-present" class="all-caps" style="font-size: 1.2rem;left: calc(-1rem - 1.2em);margin-left: -0.5em;">August 2022–present</a>
-    ..   <p style="margin-top: 1rem;font-size:1.18rem;">Vince Gilligan and Peter Gould, <a href="https://en.wikipedia.org/wiki/Better_Call_Saul"><i>Better Call Saul</i></a></p>
-    ..   <blockquote>
-    ..    <p style="text-indent: -2rem; padding-left: 2rem;">
-    ..       <span class="small-caps" style="padding-right: 0.4rem;">mike</span> Your son made some mistakes, he fell in with bad people. But he was never like them—not really. He had a good heart. One more thing: you won’t have to worry about the Salamancas. Their day is coming. There will be justice.    
-    ..    </p>
-    ..    <p style="text-indent: -2rem; padding-left: 2rem;">
-    ..        <span class="small-caps" style="padding-right: 0.4rem;">manuel</span> Justice?
-    ..    </p>
-    ..    <p style="text-indent: -2rem; padding-left: 2rem;">
-    ..       <span class="small-caps" style="padding-right: 0.4rem;">mike</span> I'm sorry, my Spanish. <i>J</i> . . . <i>justicia</i>. Justice.
-    ..    </p>
-    ..    <p style="text-indent: -2rem; padding-left: 2rem;">
-    ..       <span class="small-caps" style="padding-right: 0.4rem;">manuel</span> What you talk about is not justice. What you talk of is . . . <i>revenge</i>. It never ends.
-    ..    </p>
-    ..    <p style="margin-top: 0.7rem;">
-    ..    —VI.ix. “<a href="https://www.imdb.com/title/tt12187042/fullcredits/">Fun and Games</a>”
-    ..    </p>
-    ..   </blockquote>-->
-    <!--.. <p style="margin-top: 1rem;font-size:1.18rem;">Adele, <i>30</i></p>
-    ..   <blockquote>
-    ..   <p style="margin-bottom: 0.7rem;">
-    ..   I’ll be taking flowers <br /> 
-    ..   To the cemetery of my heart <br />
-    ..   For all of my lovers in the present and in the dark
-    ..   </p>
-    ..   <p style="margin-top: 0.7rem;">
-    ..   —“<a href="https://genius.com/Adele-strangers-by-nature-lyrics#song-info">Strangers by Nature</a>”</p>
-    ..   </blockquote>
-
-    ..   <blockquote>
-    ..   <p style="margin-bottom: 0.7rem;">
-    ..   Sometimes loneliness is the only rest we get <br />
-    ..   And the emptiness actually lets us forget <br />
-    ..   Sometimes forgiveness is easiest in secret
-    ..   </p>
-    ..   <p>
-    ..   So, just hold on— <br />
-    ..   Let time be patient <br />
-    ..   Let pain be gracious
-    ..   </p>
-    ..   <p style="margin-top: 0.7rem;">
-    ..   —“<a href="https://genius.com/Adele-hold-on-lyrics#song-info">Hold On</a>”</p>
-    ..   </blockquote>
-
-    ..   <blockquote>
-    ..   <p style="margin-bottom: 0.7rem;">
-    ..   Let it be known—<br />
-    ..   Let it be known—<br />
-    ..   That I tried
-    ..   </p>
-    ..   <p>
-    ..   I’m so afraid, but I’m open wide <br />
-    ..   I’ll be the one to catch myself this time
-    ..   </p>
-    ..   <p style="margin-top: 0.7rem;">
-    ..   —“<a href="https://genius.com/Adele-to-be-loved-lyrics#song-info">To Be Loved</a>”</p>
-    ..   </blockquote>-->
-  </div>
-</div></p>
-<p><span class="raw-html"></div></span></p>
-<div class="toctree-wrapper compound">
-</div>
-</section>
-</section>
-
-</article>
-
-<div class="section">
-   
-  
-  
-</div>
-
-          </div>
-          
-      </div>
-      <div class="clearer"></div>
+  <nav class="py-2 bg-body-tertiary border-bottom sans">
+    <div class="container d-flex justify-content-end">
+      <ul class="nav">
+        <li class="nav-item"><a href="#" class="nav-link link-body-emphasis pt-2 px-2">Home</a></li>
+        <!-- <li class="nav-item"><a href="/blog" class="nav-link link-body-emphasis px-2">Blog</a></li> -->
+      </ul>
     </div>
-    <div class="footer">
-      &copy;2023 Kent K. Chang.
-      
-      |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 5.3.0</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">KAlabaster, based on Alabaster 0.7.13</a>
-      
-      |
-      <a href="_sources/index.rst.txt"
-          rel="nofollow">Page source</a>
+  </nav>
+
+
+  <main>
+
+    
+    <div class="col-lg-8 mx-auto p-4">
+        <section class="container">
+            <div class="row d-flex align-items-stretch">
+                <div class="col-lg-8 col-12">
+                    <h1>Kent K. Chang</h1>
+                    <div id="contact" class="mt-3">
+                        <p> Ph.D. candidate</p>
+                        <p> School of Information <br />
+                            Berkeley Artificial Intelligence Research </p>
+                        <p> University of California, Berkeley</p>
+                        <p><code class="mb-2">kentkc [at] berkeley.edu</code></p>
+                        <div class="mt-3 sans">
+                            <a href="/pdfs/cv.pdf" class="btn btn-outline-pdf pt-2a" target="_blank">
+                                <i class="fas fa-file-pdf"></i> CV
+                            </a>
+                            <a href="https://x.com/KentKChang" class="btn btn-outline-primary me-2 pt-2a" target="_blank">
+                                <i class="fa-brands fa-x-twitter"></i> KentKChang 
+                            </a>
+                            <a href="https://www.linkedin.com/in/kentkchang" class="btn btn-outline-info me-2 pt-2a" target="_blank">
+                                <i class="fab fa-linkedin"></i> LinkedIn
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 d-none d-lg-block photo-container">
+                    <img src="images/kent-photo-2024.jpg" class="img-fluid rounded float-end h-100" alt="Kent K. Chang">
+                </div>
+            </div>    
+            <hr style="margin: 2em 0; border: 0; height: 1px; background-image: -webkit-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);"> 
+            <div class="row mt-3">
+                <p>Kent K. Chang is a Ph.D. candidate at the University of California, Berkeley (UC Berkeley), researching in <mark><strong>natural language processing</strong></mark> (<span class="small-caps">NLP</span>) and <mark><strong>cultural analytics</strong></mark>, advised by Prof. David Bamman at the School of Information and Berkeley Artificial Intelligence Research (<span class="small-caps">BAIR</span>). </p>
+                
+                <p>Kent’s research sits at the intersection of <span class="small-caps">NLP</span> and cultural studies: he seeks to leverage <strong>theoretical and textual resources</strong> in the humanities and social science to improve systems and innovate new tasks in <span class="small-caps">NLP</span>, and, at the same time, offer researchers in and relevant fields more tools to study <strong>language</strong>, <strong>social interactions</strong>, and <strong>cultural representation</strong> at scale. </p>
+            </div>
+        </section>
     </div>
 
+
+        <div id="news" class="container-fluid">
+            <section class="col-lg-8 mx-auto px-4">
+                <div class="container">   
+                    <h2 class="sans-title">news</h2>
+                    <ul>
+                        <li>
+                            <a href="https://x.com/KentKChang/status/1828600510582268030" target="_blank">Passed</a> my Qualifying Exam
+                            <span class="badge rounded-pill text-bg-dark ms-2 sans">
+                                <small>August 2024 </small>
+                            </span>
+                        </li>
+                        <li>
+                            <a href="https://www.ischool.berkeley.edu/about/profiles/kent-chang" target="_blank">Featured</a> on Berkeley I School website
+                            <span class="badge rounded-pill text-bg-dark ms-2 sans">
+                                <small>June 2024 </small>
+                            </span>
+                        </li>                    
+                        <li>
+                            <a href="https://x.com/KentKChang/status/1819550724541632712" target="_blank">Selected</a> as Outstanding Graduate Student Instructor
+                            <span class="badge rounded-pill text-bg-dark ms-2 sans">
+                                <small>April 2024 </small>
+                            </span>
+                        </li>
+                        <li>
+                            Received <a href="https://www.ischool.berkeley.edu/news/2024/fellowship-recipients-seek-innovate-and-empower-meaningful-change" target="_blank">Paul Fasana LGBTQ Studies Fellowship</a>
+                            <span class="badge rounded-pill text-bg-dark ms-2 sans">
+                                <small>January 2024 </small>
+                            </span>                        
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+
+        <div class="col-lg-8 mx-auto p-4 py-2">
+            <div class="container">   
+                
+                <!-- <hr style="margin: 2em 0; border: 0; height: 1px; background-image: -webkit-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);"> -->
+
+                <section id="publications">
+                    <h2>Publications</h2>
+
+                    <div>
+                        <p>
+                            “Subversive Characters and Stereotyping Readers: <br>Queering Relation Extraction to Characterize Relational Deviance in TV Dialogues”
+                        </p>                        
+                        <p>
+                            <b>Kent K. Chang</b>, Anna Ho, David Bamman (forthcoming 2024)
+                        </p>
+                        <p>
+                            <span class="small-caps">CHR</span> 2024
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>“On Classification with Large Language Models in Cultural Analytics” </p>                        
+                        <p>David Bamman, <b>Kent K. Chang</b>, Li Lucy, Naitian Zhou (forthcoming 2024)</p>         
+                        <p><span class="small-caps">CHR</span> <small class="text-body-secondary">(Computational Humanities Research)</small> 2024
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>“Speak, Memory: An Archaeology of Books Known to ChatGPT/GPT-4”</p>                        
+                        <p><b>Kent K. Chang</b>, Mackenzie Cramer, Sandeep Soni, David Bamman (2023)</p>
+                        <p><span class="small-caps">EMNLP</span> <small class="text-body-secondary">(Empirical Methods for Natural Language Processing)</small> 2023<br />
+                            <a href="https://aclanthology.org/2023.emnlp-main.453" class="btn btn-sm btn-outline-pdf mt-2" target="_blank">
+                                <i class="fas fa-file-pdf"></i>
+                                <span class="sans ms-1">ACL Anthology</span>
+                            </a>             
+                            <a href="https://github.com/bamman-group/gpt4-books" class="btn btn-sm btn-outline-dark mt-2" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span class="sans ms-1">repo</span>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>“Dramatic Conversation Disentanglement”</p>                        
+                        <p><b>Kent K. Chang</b>, Danica Chen, David Bamman (2023)</p>    
+                        <p><span class="small-caps">ACL</span> <small class="text-body-secondary">(Association for Computational Linguistics)</small> 2023 Findings<br />
+                            <a href="https://aclanthology.org/2023.findings-acl.248/" class="btn btn-sm btn-outline-pdf mt-2" target="_blank">
+                                <i class="fas fa-file-pdf"></i>
+                                <span class="sans ms-1">ACL Anthology</span>
+                            </a>             
+                            <a href="https://github.com/kentchang/dramatic-conversation-disentanglement" class="btn btn-sm btn-outline-dark mt-2" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span class="sans ms-1">repo</span>
+                            </a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>“The Queer Gap in Cultural Analytics” </p>                        
+                        <p><b>Kent K. Chang</b> (2023)</p>
+                        <p><i>Debates in Digital Humanities 2023</i><br />
+                            <a href="https://dhdebates.gc.cuny.edu/read/debates-in-the-digital-humanities-2023/section/7f599062-4b03-4d71-a5e6-eec273416c36" class="btn btn-sm btn-outline-pdf mt-2" target="_blank">
+                                <i class="fas fa-file-pdf"></i>
+                                <span class="sans ms-1">open access</span>
+                            </a>             
+                        </p>
+                    </div>
+
+                    <div>
+                        <p>“Feminist Bestsellers: A Digital History of 1970s Feminism”</p>                        
+                        <p>Michelle Moravec and <b>Kent K. Chang</b> (2021)</p>        
+                        <p><i>Post45</i> × <i>Journal of Cultural Analytics</i>
+                            <br />
+                            <a href="https://post45.org/2021/04/feminist-bestsellers-a-digital-history-of-1970s-feminism/" class="btn btn-sm btn-outline-pdf mt-2" target="_blank">
+                                <i class="fas fa-file-pdf"></i>
+                                <span class="sans ms-1">open access</span>
+                            </a>   </p>          
+                    </div>
+
+                    <div>
+                        <p>“Divergence and the Complexity of Difference in Text and Culture” </p>                        
+                        <p><b>Kent K. Chang</b> and Simon DeDeo (2020)</p>             
+                        <p><i>Journal of Cultural Analytics</i><br />
+                            <a href="https://culturalanalytics.org/article/17585-divergence-and-the-complexity-of-difference-in-text-and-culture" class="btn btn-sm btn-outline-pdf mt-2" target="_blank">
+                                <i class="fas fa-file-pdf"></i>
+                                <span class="sans ms-1">open access</span>
+                            </a>
+                            <a href="https://github.com/kentchang/ca_divergence" class="btn btn-sm btn-outline-dark mt-2" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <span class="sans ms-1">repo</span>
+                            </a>
+                        </p>         
+                    </div>
+
+                    <div>
+                        <p>“Book Reviews and the Consolidation of Genre”</p>                        
+                        <p><b>Kent Chang</b>, Yuerong Hu, Wenyi Shang, Aniruddha Sharma, Shubhangi Singhal, Ted Underwood, Jessica Witte, Peizhen Wu (2020) </p>
+                        <p><span class="small-caps">DH</span> <small class="text-body-secondary">(Digital Humanities) 2020</small><br />
+                            <a href="http://dx.doi.org/10.17613/02q2-1v27" class="btn btn-sm btn-outline-primary mt-2" target="_blank">
+                                <span class="sans mt-1">hcommons</span>
+                            </a> 
+                        </p>           
+                    </div>
+                </section>
+   
+                <hr style="margin: 1.5em 0; border: 0; height: 1px; background-image: -webkit-linear-gradient(left,#f0f0f0,#8c8b8b,#f0f0f0);">
+
+                <section id="teaching" class="mb-5">
+                    <h2>Teaching</h2>
+
+                    <p>
+                        Graduate Student Instructor, UC Berkeley
+                        <ul>
+                            <li>“Applied Natural Language Processing” (<span class="small-caps">info</span> 256): Fall 2023, Fall 2024.</li>
+                            <li>“Natural Language Processing” (<span class="small-caps">info</span> 159/259): Spring 2023.</li>
+                            <li>“Information Organization and Retrieval” (<span class="small-caps">info</span> 202): Fall 2022.</li>    
+                        </ul>
+                    </p>
+                </section>
+                
+                      
+                <!-- Bootstrap Card with Custom Ribbon Label -->
+                <div class="shadow-sm p-4 mb-5 bg-body-tertiary rounded ribbon-container">
+                    <!-- Custom Ribbon Label -->
+                    <div class="ribbon-label sans-title">Current Obsessions</div>
+                    
+                    <div style="margin-top: 3.5rem;">
+                        <div id="obsessions">
+                            <p><a href="https://digitalcommons.wayne.edu/criticism/vol52/iss2/10/">truth and consequences</a></p>
+
+                            <blockquote>
+                                <p>
+                                    There are two gates of Sleep, one of which, they say, <br />
+                                    Is made of horn and offers easy passage <br />
+                                    To true visions; the other has a luminous, dense <br />
+                                    Ivory sheen, but through it, to the sky above, <br />
+                                    The spirits of the dead send up false dreams. <br />
+                                </p>
+                                <p>
+                                    —<i>Aeneid</i> VI, ll. 1212–16 (Seamus Heaney tr.)
+                                </p>                                
+                            </blockquote>
+
+                            <blockquote class="dialogue">
+                                <p>
+                                    <span class="small-caps speaker">Ariel</span> The Romans? Where are they now?
+                                </p>        
+                                <p>
+                                    <span class="small-caps speaker">Tony</span> You’re looking at them, asshole.
+                                </p>      
+                                <p>
+                                    —David Chase, <i>The Sopranos</i>, <a href="https://www.imdb.com/title/tt0705239/characters/nm0251999" target="_blank">I.iii</a> (1999)
+                                </p>
+                            </blockquote>     
+                            
+                            <blockquote>
+                                <p>
+                                    Jerome Weidman was there that day, and later he described what happened next in a magazine article. I wish I could write so poetically.
+                                    All I can say is I stood on that stage and went into my own inner world, forgetting anyone else was there.
+                                    <blockquote>
+                                        Softly, in a voice as true as a plumb line and pure as the soap that floats, with the quiet authority of someone who had seen the inevitable, as simply and directly and movingly as Homer telling about the death of Hector, she told the haunting story of a girl who had stayed “too long at the fair.” It was a song, of course, and a good one. But emerging through the voice and personality of this strange child, it became more than that. We were hearing music and words, but we were experiencing what one gets only from great art: a moment of revealed truth.
+                                    </blockquote>
+                                    There was silence after I finished the song. Then they asked me to sing another, and another.
+                                </p>
+                                <p>
+                                    —Barbra Streisand, <i>My Name is Barbra</i> (2023)
+                                </p>                                
+                            </blockquote>
+                            <!-- <p>David Shore, <a href="https://en.m.wikipedia.org/wiki/House_(TV_series)"><i>House, M. D.</i></a></p>
+                            <blockquote class="dialogue">
+                                <p>
+                                    <span class="small-caps speaker">algernon</span>  If it wasn’t for Bunbury’s extraordinary bad health, for instance, I wouldn’t be able to dine with you at Willis’s tonight, for I have been really engaged to Aunt Augusta for more than a week.
+                                </p>        
+                                <p style="text-indent: -2rem; padding-left: 2rem;">
+                                    <span class="small-caps" style="padding-right: 0.4rem;">jack</span> I haven’t asked you to dine with me anywhere tonight.
+                                </p>
+                                <p style="text-indent: -2rem; padding-left: 2rem;">
+                                    <span class="small-caps" style="padding-right: 0.4rem;">algernon</span>I know. You are absurdly careless about sending out invitations. It is very foolish of you. Nothing annoys people so much as not receiving invitations.
+                                </p>         
+                            <p>
+                            —Wilde, <i>Earnest</i> (1895)
+                            </p>
+                            </blockquote>
+                    
+                            <blockquote>
+                            <p style="text-indent: -2rem; padding-left: 2rem;">
+                                <span class="small-caps" style="padding-right: 0.4rem;">frasier</span> I’m famished. Why don’t we just head over to Campagne for dinner? My treat. 
+                            </p><p style="text-indent: -2rem; padding-left: 2rem;">
+                                <span class="small-caps" style="padding-right: 0.4rem;">niles</span> You’re on! Unless, you think it’s too <i>odd</i> to have dinner together, heh.
+                            </p>
+                            <p style="text-indent: -2rem; padding-left: 2rem;">
+                                <span class="small-caps" style="padding-right: 0.4rem;">frasier</span> I don’t think we’re in any danger of that—if our relationship became truly odd I think we’re both intelligent enough to recognize the signs.
+                            </p>         
+                            <p style="margin-top: 0.7rem;">
+                            —<i>Frasier</i>, VI.xvii. “<a href="hhttps://www.imdb.com/title/tt0756479/">The Dinner Party</a>” (1999)
+                            </p>
+                            </blockquote>
+                    
+                            <blockquote>
+                            <p style="text-indent: -2rem; padding-left: 2rem;">
+                                <span class="small-caps" style="padding-right: 0.4rem;">house</span> Invite me to dinner Thursday night! Come on, we haven’t had a nice meal together since, oh—
+                            </p>        
+                            <p style="text-indent: -2rem; padding-left: 2rem;">
+                                <span class="small-caps" style="padding-right: 0.4rem;">wilson</span> . . . yesterday, when I loaned you five thousand dollars to buy a new car.
+                            </p>
+                            <p style="text-indent: -2rem; padding-left: 2rem;">
+                                <span class="small-caps" style="padding-right: 0.4rem;">house</span> My treat!
+                            </p>         
+                            <p style="margin-top: 0.7rem;">
+                            —<i>House, M. D.</i>, II.v. “<a href="https://www.imdb.com/title/tt0606017/">Daddy’s Boy</a>” (2005)
+                            </p>
+                            </blockquote>                 -->
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
     
 
-    
-  </body>
+    <div class="col-lg-8 mx-auto p-4 py-md-5" style="margin-top: -6rem;">
+        <div class="container">  
+          <footer class="my-2 text-body-secondary text-center">
+        <p>
+          <small>Last updated: September 21, 2024</small>
+        </p></footer>
+        </div>
+    </div>
+  </main>
 
-  <script type="text/javascript">
-  const sideMenu = $('.ui.sidebar').sidebar({
-	transition: 'overlay'
-})
-    $('.toggle-sidebar').on('click', function () {
-      sideMenu.sidebar('toggle');
-    });
-    $('.ui.rating')
-  .rating()
-;
-  </script>
-</html>
+<!-- Bootstrap JS bundle  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Theme JS -->
+<script src="/theme/assets/js/theme.js"></script>
+<!-- Theme customizer JS -->
+<!-- <script src="/theme/assets/theme_custom.js"></script> -->
+
+</body>
+
+
+</html> 
